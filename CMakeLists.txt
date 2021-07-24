@@ -1,0 +1,3 @@
+add_executable(ili9341_tft ili9341.c)
+target_link_libraries(ili9341_tft pico_stdlib hardware_spi)
+pico_add_extra_outputs(ili9341_tft)
